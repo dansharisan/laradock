@@ -269,7 +269,7 @@ APACHE_DOCUMENT_ROOT=/var/www/
 
 ### MYSQL #################################################
 
-MYSQL_VERSION=latest
+MYSQL_VERSION=5.7
 MYSQL_DATABASE=default
 MYSQL_USER=default
 MYSQL_PASSWORD=secret
@@ -844,7 +844,7 @@ GEARMAN_MYSQL_PORT=3306
 # Mysql server user (Default: root)
 GEARMAN_MYSQL_USER=root
 # Mysql password
-GEARMAN_MYSQL_PASSWORD=	
+GEARMAN_MYSQL_PASSWORD=
 # Path to file with mysql password(Docker secrets)
 GEARMAN_MYSQL_PASSWORD_FILE=
 # Database to use by Gearman (Default: Gearmand)
